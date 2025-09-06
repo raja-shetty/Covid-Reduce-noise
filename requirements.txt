@@ -1,0 +1,28 @@
+# Core requirements only
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+numpy>=1.24.0
+# FastAPI and web server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# ONNX Runtime (CPU version for deployment)
+onnxruntime>=1.15.0
+
+# Image processing
+pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Numerical computing
+numpy>=1.24.0,<2.0.0
+
+# Async support
+aiofiles>=23.2.1
+
+# For GPU support (optional)
+# onnxruntime-gpu>=1.15.0  # Uncomment for GPU deployment
